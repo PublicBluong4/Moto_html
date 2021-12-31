@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>payment & shipping</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<nav>
+		<a href="#" class="menu_icon"></a>
+		<ul>		
+			<li><a href="index.html">Home</a></li>
+			<li><a href="chopper.html">Chopper</a></li>
+			<li><a href="cruiser.html">Cruiser</a></li>
+			<li><a href="sport.html">Sport</a></li>
+			<li><a href="buy.html">Buys</a></li>
+		</ul>
+		
+	</nav>
+	<header  class="shipping_head">
+		<div>
+		<h1>power motorbikes</h1>
+		</div>
+	</header>
+	
+
+
+	<div class="ship_wrap">
+
+		<div>
+			<h2>Payment and Shipping</h2>
+			<p>We using Canada Post to ship order to customer.</p>
+			<p>Canada Post has designed a Customer Guide to give customers detailed information needed to get the most from Canada Post’s Xpresspost Certified service. Customers may also visit canadapost.ca/postalservices under Parcel Services for a list of support documents detailing Xpresspost Certified requirements for general information on Products and Services.</p>
+		</div>
+
+		
+		
+		<form action="https://webdevbasics.net/scripts/demo.php" method="post">
+			<div>
+				<fieldset>
+					<legend>Your information</legend>
+					<div>
+						<label for="fullname">Full Name</label>
+						<input id="fullname" type="text" name="fullname" placeholder="Please Input Your Full Name!" required>
+						<label for="email">Email</label>
+						<input id="email" type="email" name="email" placeholder="Please Input Your Email!" required>
+						<label for="phone">Telephone</label>
+						<input id="phone" type="tel" name="phone" placeholder="Please Input Your Phone Number!" required>
+						<label for="adress">Address</label>
+	                    <input id="adress" name="address" type="text">
+	                    <label for="city">City</label>
+	                    <input id="city" name="city" type="text">
+	                    <label for="province">Province</label>
+	                    <input id="province" name="province" type="text">
+	                    <label for="postal"> Postal Code</label>
+	                    <input id="postal" name="postal" type="text" placeholder="L3C 6A7" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]">
+					</div>
+				</fieldset>
+			</div>
+
+			<div>
+				<fieldset>
+					<legend>Creadit card information</legend>
+
+					<div>
+						<label for="creditcardnumber">Credit Card Number</label>
+						<input id="creditcardnumber" type="text" name="cardnumber" placeholder="Please Input Your Card Number" required>
+						<label for="epirationyear">Expiration Year</label>
+						<input id="epirationyear" type="Number" name="Year" min="2019" max="2100" required>
+						<label for="epirationmonth">Expiration Month</label>
+						<input id="epirationmonth" type="Number" name="Month" min="1" max="12" required>
+						<label for="securitycode">Security code</label>
+						<input id="securitycode" type="Number" name="Security" min="1" max="12" required>
+					</div>
+
+				</fieldset>
+				<div>
+				<fieldset>
+					<legend>Term &amp; Condition</legend>
+					<input type="checkbox" name="term_and_conditon" checked required>
+					<p class="changetoinline">I agree with term and conditon of power motorbikes</p>
+				</fieldset>
+				<div >
+				<input id="submitbutton" type="submit" value="Finish">
+				</div>
+			</div>
+			</div>
+			
+		</form>
+
+
+	</div>
+	
+
+	<footer>
+		<p>Ba Binh Luong - Final Project</p>
+		
+	</footer>
+
+</body>
+</html>
